@@ -1,0 +1,7 @@
+#Lab2
+#Machine Learning Problem Description
+
+This is a classification problem.
+Yes, there is a target variable, which indicates whether an email is spam or not spam.
+
+The model is expected to learn patterns from the email data (such as word frequency, content features, or metadata) and predict the class of new emails. In other words, the goal is to automatically classify incoming emails as spam or legitimate based on previously labeled examples.
