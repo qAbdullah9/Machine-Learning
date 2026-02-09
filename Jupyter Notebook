@@ -1,0 +1,11 @@
+import pandas
+
+path = pandas.read_csv("emails.csv")
+
+print("Path to dataset files:" , path)
+
+path.head()
+path.info()
+path.shape
+path.describe()
+path.isnull().sum()
