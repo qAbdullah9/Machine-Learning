@@ -4,8 +4,9 @@ path = pandas.read_csv("emails.csv")
 
 print("Path to dataset files:" , path)
 
-path.head()
-path.info()
-path.shape
-path.describe()
-path.isnull().sum()
+print(path.head())
+print(path.info())
+print(path.shape)
+print(path.describe())
+print(path.isnull().sum())
+
